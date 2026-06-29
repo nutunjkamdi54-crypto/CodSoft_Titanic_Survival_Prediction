@@ -64,11 +64,19 @@ The best-performing Random Forest model is saved using Joblib.
 
 ## 📁 Project Structure
 
+text
 Titanic-Survival-Prediction/
 │
 ├── dataset/
+│   ├── train.csv
+│   └── test.csv
+│
 ├── notebook/
+│   └── Titanic_Survival.ipynb
+│
 ├── models/
+│   └── random_forest_model.pkl
+│
 ├── images/
 ├── requirements.txt
 └── README.md
